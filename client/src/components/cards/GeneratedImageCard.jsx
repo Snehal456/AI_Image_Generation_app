@@ -30,12 +30,12 @@ const GeneratedImageCard = ({ src, loading }) => {
           <CircularProgress
             sx={{ color: "inherit", width: "24px", height: "24px" }}
           />
-          Generating Your Image . . .
+          Generating Your Image Soon !!. . .
         </>
       ) : src ? (
         <Image src={src} />
       ) : (
-        <>Write a prompt to generate image</>
+        <>Write a prompt to generate the image</>
       )}
     </Container>
   );

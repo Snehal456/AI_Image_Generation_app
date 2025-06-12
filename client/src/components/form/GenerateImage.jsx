@@ -92,9 +92,9 @@ const GenerateImage = ({
   return (
     <Form>
       <Top>
-        <Title>Generate Image with prompt</Title>
+        <Title>Generate the Image Using Prompt ! </Title>
         <Desc>
-          Write your prompt according to the image you want to generate!
+          Write your prompt for which you want to generate image!
         </Desc>
       </Top>
       <Body>
@@ -114,8 +114,7 @@ const GenerateImage = ({
           value={post.prompt}
           handelChange={(e) => setPost({ ...post, prompt: e.target.value })}
         />
-        {error && <div style={{ color: "red" }}>{error}</div>}* You can post the
-        AI Generated Image to showcase in the community!
+        {error && <div style={{ color: "red" }}>{error}</div>}
       </Body>
       <Actions>
         <Button

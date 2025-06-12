@@ -11,7 +11,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-// Get all posts
+// To Get all posts
 export const getAllPosts = async (req, res, next) => {
   try {
     const posts = await Post.find({});
@@ -26,7 +26,7 @@ export const getAllPosts = async (req, res, next) => {
   }
 };
 
-// Create new post
+// To Create new posts
 export const createPost = async (req, res, next) => {
   try {
     const { name, prompt, photo } = req.body;

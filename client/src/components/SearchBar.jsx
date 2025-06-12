@@ -22,7 +22,7 @@ const SearchBar = ({ search, handleChange }) => {
       <SearchOutlined sx={{ color: "inherit" }} />
       <input
         type="text"
-        placeholder="Search with prompt or name. . ."
+        placeholder="Search using prompt or name !"
         style={{
           border: "none",
           outline: "none",

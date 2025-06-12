@@ -38,14 +38,14 @@ const Navbar = () => {
       GemAI
       {path[1] === "post" ? (
         <Button
-          text="Explore Posts"
+          text="Go to Posts"
           leftIcon={<WebRounded style={{ fontSize: "18px" }} />}
           onClick={gottoHome}
           type="secondary"
         />
       ) : (
         <Button
-          text="Create new post"
+          text="Create new Posts"
           leftIcon={<AddRounded style={{ fontSize: "18px" }} />}
           onClick={gotoCreatePost}
         />
